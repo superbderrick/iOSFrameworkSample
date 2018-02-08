@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Feb 08 08:55:30 KST 2018
+0.baseType=DIRECTORY
+0.base=/Users/derrick/working/demos/chat/OneToManyChat/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

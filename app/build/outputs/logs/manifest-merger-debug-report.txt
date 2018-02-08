@@ -1,0 +1,448 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.firebase:firebase-database:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-11.6.2.aar/d0c961162939414f645e4f6351aca8f8/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.2.aar/c0f3ae54fdb65d37ff3c3f2a138defe8/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/5e413b9d0a713277dd1635184e55da38/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/87694602209741bb269c4d645d25fb1f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4fa7086e39797ecb0dd472ffc0ca4351/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database-connection:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.6.2.aar/0d5dd9b2f097ce7ef97c1c7c8c7ecb2d/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.2.aar/18fa32ee6e1026a7cafdc6234a9ad5bc/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.2.aar/3f382f35ab1246ff706d1773705d0528/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/45ceeb41f12a672926657b1368a7bdc0/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.2.aar/cc97e9eb6b13a97e173c0e01eac55291/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/54c38ae9c58c27c60b99ed3e1538b2b3/AndroidManifest.xml:16:1-23:12
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.2.aar/2902e4ead7effbd76c78af95770c5f51/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.2.aar/a56399e591c3106eb99b1c1928ef75f1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/353a97a79654f22b52301568e584dcea/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/c4fae37744330520f41aef41e27b7633/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a1e040a7d027513792260f11699c72ce/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/37ac496a7e56c423e3f293c0e3bdb350/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2d39e23e29b7c117d0754b3731caab0d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0005baa232b1816c40ab68cfb08ddfea/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2ffb1f853bf1e48bda2ceb4bf471976b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/211b5e3d71467eba2f22884629466aeb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.2.aar/88d285c80d385f68bf3de981d9917b71/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/8bd9e26b77ae454406b7809da6ca9879/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/6abf52c625b9e1c78a77ec72ce7f1880/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/a82d934e57d5793d0f88c5e9d9c5bfff/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.2.aar/b281cb6781fb6513cd1ea52ac5737ad4/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.2.aar/da492e02293c3244972813fcadbf1895/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.2.aar/490b005c3c2f490e10f08f806a792e15/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/e567f2ee50a0b34f0d3d319d9aec2045/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/f6d71ab6ba57f8dd1f3d138465ec37d7/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8fdcfa42c85669cad8eace32f05f2cb0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/f43063967fba144dd4aa8706fd8ff65c/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:6:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.2.aar/c0f3ae54fdb65d37ff3c3f2a138defe8/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.2.aar/c0f3ae54fdb65d37ff3c3f2a138defe8/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/5e413b9d0a713277dd1635184e55da38/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/5e413b9d0a713277dd1635184e55da38/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/87694602209741bb269c4d645d25fb1f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/87694602209741bb269c4d645d25fb1f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4fa7086e39797ecb0dd472ffc0ca4351/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4fa7086e39797ecb0dd472ffc0ca4351/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/45ceeb41f12a672926657b1368a7bdc0/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/45ceeb41f12a672926657b1368a7bdc0/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.2.aar/cc97e9eb6b13a97e173c0e01eac55291/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.2.aar/cc97e9eb6b13a97e173c0e01eac55291/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/54c38ae9c58c27c60b99ed3e1538b2b3/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/54c38ae9c58c27c60b99ed3e1538b2b3/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.2.aar/2902e4ead7effbd76c78af95770c5f51/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.2.aar/2902e4ead7effbd76c78af95770c5f51/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.2.aar/a56399e591c3106eb99b1c1928ef75f1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.2.aar/a56399e591c3106eb99b1c1928ef75f1/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/353a97a79654f22b52301568e584dcea/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/353a97a79654f22b52301568e584dcea/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/c4fae37744330520f41aef41e27b7633/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/c4fae37744330520f41aef41e27b7633/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a1e040a7d027513792260f11699c72ce/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a1e040a7d027513792260f11699c72ce/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/37ac496a7e56c423e3f293c0e3bdb350/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/37ac496a7e56c423e3f293c0e3bdb350/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2d39e23e29b7c117d0754b3731caab0d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2d39e23e29b7c117d0754b3731caab0d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0005baa232b1816c40ab68cfb08ddfea/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0005baa232b1816c40ab68cfb08ddfea/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2ffb1f853bf1e48bda2ceb4bf471976b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2ffb1f853bf1e48bda2ceb4bf471976b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/211b5e3d71467eba2f22884629466aeb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/211b5e3d71467eba2f22884629466aeb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.2.aar/88d285c80d385f68bf3de981d9917b71/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.2.aar/88d285c80d385f68bf3de981d9917b71/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/8bd9e26b77ae454406b7809da6ca9879/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/8bd9e26b77ae454406b7809da6ca9879/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/6abf52c625b9e1c78a77ec72ce7f1880/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/6abf52c625b9e1c78a77ec72ce7f1880/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/a82d934e57d5793d0f88c5e9d9c5bfff/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/a82d934e57d5793d0f88c5e9d9c5bfff/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.2.aar/b281cb6781fb6513cd1ea52ac5737ad4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.2.aar/b281cb6781fb6513cd1ea52ac5737ad4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.2.aar/da492e02293c3244972813fcadbf1895/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.2.aar/da492e02293c3244972813fcadbf1895/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.2.aar/490b005c3c2f490e10f08f806a792e15/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.2.aar/490b005c3c2f490e10f08f806a792e15/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/e567f2ee50a0b34f0d3d319d9aec2045/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/e567f2ee50a0b34f0d3d319d9aec2045/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/f6d71ab6ba57f8dd1f3d138465ec37d7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/f6d71ab6ba57f8dd1f3d138465ec37d7/AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8fdcfa42c85669cad8eace32f05f2cb0/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8fdcfa42c85669cad8eace32f05f2cb0/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/f43063967fba144dd4aa8706fd8ff65c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/f43063967fba144dd4aa8706fd8ff65c/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:12:9-40
+activity#io.github.superbderrick.onetomanychat.MainActivity
+ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:13:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-database:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-11.6.2.aar/d0c961162939414f645e4f6351aca8f8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-11.6.2.aar/d0c961162939414f645e4f6351aca8f8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.2.aar/c0f3ae54fdb65d37ff3c3f2a138defe8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.2.aar/c0f3ae54fdb65d37ff3c3f2a138defe8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/5e413b9d0a713277dd1635184e55da38/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/5e413b9d0a713277dd1635184e55da38/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/87694602209741bb269c4d645d25fb1f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/87694602209741bb269c4d645d25fb1f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4fa7086e39797ecb0dd472ffc0ca4351/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/4fa7086e39797ecb0dd472ffc0ca4351/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-connection:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.6.2.aar/0d5dd9b2f097ce7ef97c1c7c8c7ecb2d/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.6.2.aar/0d5dd9b2f097ce7ef97c1c7c8c7ecb2d/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.2.aar/18fa32ee6e1026a7cafdc6234a9ad5bc/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.2.aar/18fa32ee6e1026a7cafdc6234a9ad5bc/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.2.aar/3f382f35ab1246ff706d1773705d0528/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.2.aar/3f382f35ab1246ff706d1773705d0528/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/45ceeb41f12a672926657b1368a7bdc0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/45ceeb41f12a672926657b1368a7bdc0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.2.aar/cc97e9eb6b13a97e173c0e01eac55291/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.2.aar/cc97e9eb6b13a97e173c0e01eac55291/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/54c38ae9c58c27c60b99ed3e1538b2b3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/54c38ae9c58c27c60b99ed3e1538b2b3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.2.aar/2902e4ead7effbd76c78af95770c5f51/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.2.aar/2902e4ead7effbd76c78af95770c5f51/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.2.aar/a56399e591c3106eb99b1c1928ef75f1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.2.aar/a56399e591c3106eb99b1c1928ef75f1/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/353a97a79654f22b52301568e584dcea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/353a97a79654f22b52301568e584dcea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/c4fae37744330520f41aef41e27b7633/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/c4fae37744330520f41aef41e27b7633/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a1e040a7d027513792260f11699c72ce/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a1e040a7d027513792260f11699c72ce/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/37ac496a7e56c423e3f293c0e3bdb350/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/37ac496a7e56c423e3f293c0e3bdb350/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2d39e23e29b7c117d0754b3731caab0d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2d39e23e29b7c117d0754b3731caab0d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0005baa232b1816c40ab68cfb08ddfea/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0005baa232b1816c40ab68cfb08ddfea/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2ffb1f853bf1e48bda2ceb4bf471976b/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2ffb1f853bf1e48bda2ceb4bf471976b/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/211b5e3d71467eba2f22884629466aeb/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/211b5e3d71467eba2f22884629466aeb/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.2.aar/88d285c80d385f68bf3de981d9917b71/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.2.aar/88d285c80d385f68bf3de981d9917b71/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/8bd9e26b77ae454406b7809da6ca9879/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/8bd9e26b77ae454406b7809da6ca9879/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/6abf52c625b9e1c78a77ec72ce7f1880/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/6abf52c625b9e1c78a77ec72ce7f1880/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/a82d934e57d5793d0f88c5e9d9c5bfff/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/a82d934e57d5793d0f88c5e9d9c5bfff/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.2.aar/b281cb6781fb6513cd1ea52ac5737ad4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.2.aar/b281cb6781fb6513cd1ea52ac5737ad4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.2.aar/da492e02293c3244972813fcadbf1895/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.2.aar/da492e02293c3244972813fcadbf1895/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.2.aar/490b005c3c2f490e10f08f806a792e15/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.2.aar/490b005c3c2f490e10f08f806a792e15/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/e567f2ee50a0b34f0d3d319d9aec2045/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/e567f2ee50a0b34f0d3d319d9aec2045/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/f6d71ab6ba57f8dd1f3d138465ec37d7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/f6d71ab6ba57f8dd1f3d138465ec37d7/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8fdcfa42c85669cad8eace32f05f2cb0/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8fdcfa42c85669cad8eace32f05f2cb0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/f43063967fba144dd4aa8706fd8ff65c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/f43063967fba144dd4aa8706fd8ff65c/AndroidManifest.xml:4:5-43
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/87694602209741bb269c4d645d25fb1f/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+		ADDED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/derrick/working/demos/chat/OneToManyChat/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.2.aar/eb37a82a3fb068b9ac6bc05062242340/AndroidManifest.xml:24:18-63
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/87694602209741bb269c4d645d25fb1f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/353a97a79654f22b52301568e584dcea/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/353a97a79654f22b52301568e584dcea/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/c4fae37744330520f41aef41e27b7633/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/c4fae37744330520f41aef41e27b7633/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a1e040a7d027513792260f11699c72ce/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a1e040a7d027513792260f11699c72ce/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/37ac496a7e56c423e3f293c0e3bdb350/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/37ac496a7e56c423e3f293c0e3bdb350/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2d39e23e29b7c117d0754b3731caab0d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2d39e23e29b7c117d0754b3731caab0d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0005baa232b1816c40ab68cfb08ddfea/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0005baa232b1816c40ab68cfb08ddfea/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2ffb1f853bf1e48bda2ceb4bf471976b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2ffb1f853bf1e48bda2ceb4bf471976b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/211b5e3d71467eba2f22884629466aeb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/211b5e3d71467eba2f22884629466aeb/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/87694602209741bb269c4d645d25fb1f/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/87694602209741bb269c4d645d25fb1f/AndroidManifest.xml:27:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/fd77c8c0035c20e55f0a1bfbaac44dba/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/066562be11a307d5aa3eba651ccfd067/AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:25:17-71
+permission#io.github.superbderrick.onetomanychat.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:27:22-76
+uses-permission#io.github.superbderrick.onetomanychat.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:27:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:31:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:31:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:31:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:31:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:32:13-35:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+io.github.superbderrick.onetomanychat
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:32:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:33:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:34:27-58
+category#io.github.superbderrick.onetomanychat
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:34:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:40:9-44:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:40:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:40:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:41:13-43:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:41:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:42:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/1bdd6efca78d63188c64d26060744c90/AndroidManifest.xml:42:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/6559db2d60d11d2e429e4334adbf0e13/AndroidManifest.xml:6:79-143
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/45ceeb41f12a672926657b1368a7bdc0/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/45ceeb41f12a672926657b1368a7bdc0/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/45ceeb41f12a672926657b1368a7bdc0/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/45ceeb41f12a672926657b1368a7bdc0/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/54c38ae9c58c27c60b99ed3e1538b2b3/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/54c38ae9c58c27c60b99ed3e1538b2b3/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.6.2] /Users/derrick/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/54c38ae9c58c27c60b99ed3e1538b2b3/AndroidManifest.xml:20:20-65
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8fdcfa42c85669cad8eace32f05f2cb0/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8fdcfa42c85669cad8eace32f05f2cb0/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/derrick/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8fdcfa42c85669cad8eace32f05f2cb0/AndroidManifest.xml:26:13-58
