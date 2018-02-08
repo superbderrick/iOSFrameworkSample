@@ -156,9 +156,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initValues() {
         FirebaseUser user = mAuth.getCurrentUser();
-        if (user == null) {
-            userName = "Guest" + new Random().nextInt(5000);
-        } else {
+        if (user != null) {
             userName = user.getDisplayName();
         }
     }

@@ -51,11 +51,15 @@
     </LinearLayout>
 
     <ListView
-        android:background="@android:color/transparent"
+
+        android:background="#ffffff"
+        android:dividerHeight="0px"
+        android:divider="#ffffff"
         android:id="@+id/list_message"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+
         android:padding="5dp"/>
 
     <LinearLayout

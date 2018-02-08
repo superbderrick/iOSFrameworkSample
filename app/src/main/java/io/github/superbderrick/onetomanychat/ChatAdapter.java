@@ -57,7 +57,7 @@ public class ChatAdapter extends ArrayAdapter<ChatData> {
 
     @Override
     public int getViewTypeCount() {
-        return 2;
+        return 1;
     }
 
     @Override
