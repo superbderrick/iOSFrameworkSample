@@ -1,4 +1,0 @@
-#Thu Feb 08 10:00:16 KST 2018
-base.0=/Users/derrick/working/demos/chat/OneToManyChat/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
