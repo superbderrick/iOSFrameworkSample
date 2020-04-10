@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char DerrickFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DerrickFramework/PublicHeader.h>
 
+#import <DerrickFramework/DerrickTest.h>
+
 

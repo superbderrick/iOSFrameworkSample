@@ -6,7 +6,11 @@
 	<dict>
 		<key>Headers/DerrickFramework.h</key>
 		<data>
-		TB1Z+12oIdrhE+Fy8/9jivZ95Po=
+		PXlBOAwg6OAyFYAthSsNdN+4oKY=
+		</data>
+		<key>Headers/DerrickTest.h</key>
+		<data>
+		9HhDs9xvNZX/Zy//dmKrHfJeRb0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,7 +27,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xZSY0JV4dL+AncfFO94gGG3EVeQNzfRlfys6GYgNn3U=
+			xn5xvxTD9NtG/VVki1IFJ1KDo4YtzfdhbI2vkUq5iMo=
+			</data>
+		</dict>
+		<key>Headers/DerrickTest.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JYCfo1mWyauvWOPhMbhGH9/hybT15UQ9OECy4yVHMkk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
