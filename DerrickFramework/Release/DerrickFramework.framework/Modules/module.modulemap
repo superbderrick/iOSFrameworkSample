@@ -1,0 +1,6 @@
+framework module DerrickFramework {
+  umbrella header "DerrickFramework.h"
+
+  export *
+  module * { export * }
+}

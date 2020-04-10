@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49BEF888244029CC00734A97 /* DerrickFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BEF886244029CC00734A97 /* DerrickFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49CB424124402A8300DD3593 /* DerrickTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CB423F24402A8300DD3593 /* DerrickTest.h */; };
+		49CB424124402A8300DD3593 /* DerrickTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CB423F24402A8300DD3593 /* DerrickTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49CB424224402A8300DD3593 /* DerrickTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CB424024402A8300DD3593 /* DerrickTest.m */; };
 /* End PBXBuildFile section */
 

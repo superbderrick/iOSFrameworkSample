@@ -14,7 +14,33 @@
 		49BEF86D244029B700734A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BEF86C244029B700734A97 /* Assets.xcassets */; };
 		49BEF870244029B700734A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BEF86E244029B700734A97 /* LaunchScreen.storyboard */; };
 		49BEF873244029B700734A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BEF872244029B700734A97 /* main.m */; };
+		49D1064A244044CA0007D4EB /* DerrickFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D1063E24403E060007D4EB /* DerrickFramework.framework */; };
+		49D1064B244044CA0007D4EB /* DerrickFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49D1063E24403E060007D4EB /* DerrickFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49D1063D24403E060007D4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D1063924403E060007D4EB /* DerrickFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 49BEF883244029CC00734A97;
+			remoteInfo = DerrickFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49D1064C244044CA0007D4EB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				49D1064B244044CA0007D4EB /* DerrickFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		49BEF85D244029B600734A97 /* DerrickFrameworkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DerrickFrameworkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +55,7 @@
 		49BEF86F244029B700734A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49BEF871244029B700734A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49BEF872244029B700734A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49D1063924403E060007D4EB /* DerrickFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DerrickFramework.xcodeproj; path = ../DerrickFramework/DerrickFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D1064A244044CA0007D4EB /* DerrickFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +73,10 @@
 		49BEF854244029B600734A97 = {
 			isa = PBXGroup;
 			children = (
+				49D1063924403E060007D4EB /* DerrickFramework.xcodeproj */,
 				49BEF85F244029B600734A97 /* DerrickFrameworkSample */,
 				49BEF85E244029B600734A97 /* Products */,
+				49D10649244044CA0007D4EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +106,21 @@
 			path = DerrickFrameworkSample;
 			sourceTree = "<group>";
 		};
+		49D1063A24403E060007D4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D1063E24403E060007D4EB /* DerrickFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D10649244044CA0007D4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,6 +131,7 @@
 				49BEF859244029B600734A97 /* Sources */,
 				49BEF85A244029B600734A97 /* Frameworks */,
 				49BEF85B244029B600734A97 /* Resources */,
+				49D1064C244044CA0007D4EB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,12 +167,28 @@
 			mainGroup = 49BEF854244029B600734A97;
 			productRefGroup = 49BEF85E244029B600734A97 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 49D1063A24403E060007D4EB /* Products */;
+					ProjectRef = 49D1063924403E060007D4EB /* DerrickFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				49BEF85C244029B600734A97 /* DerrickFrameworkSample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		49D1063E24403E060007D4EB /* DerrickFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DerrickFramework.framework;
+			remoteRef = 49D1063D24403E060007D4EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		49BEF85B244029B600734A97 /* Resources */ = {
